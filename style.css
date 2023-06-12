@@ -8,12 +8,15 @@ body{
     font-family: 'VT323', monospace;
     background-color: var(--bgbgcolor);
     color: var(--textcolor);
+    
 }
 header{
     text-align: center;
+    margin-top: -30px;
 }
 img{
     margin-top: -20px;
+    margin-bottom: -30px;
 }
 .icon{
     height: 25%;
@@ -54,6 +57,7 @@ a{
 nav a:hover{
     background-color: var(--details);
     font-size: 27px;
+    padding: 12px;
     transition: all 0.3s ease;
 
 }
