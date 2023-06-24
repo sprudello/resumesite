@@ -7,7 +7,8 @@
 
 body {
     font-family: 'VT323', monospace;
-    background-color: var(--bgbgcolor);
+    background-image: url(background.svg);
+    background-size: cover;
     color: var(--textcolor);
 
 }
@@ -119,7 +120,7 @@ nav p {
 
 #socialnav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 @keyframes distort {
@@ -128,7 +129,7 @@ nav p {
     }
 
     50% {
-        transform: scale(1.8) skewX(45deg);
+        transform: scale(1.2) skewX(50deg);
     }
 
     100% {
