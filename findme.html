@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>My Socials</title>
+    <title>You Found Me!</title>
 </head>
 
 <body id="socials">
@@ -23,7 +23,7 @@
         <a href="education.html">Education</a>
         <a href="@">Skills</a>
         <a href="hobbies.html">Hobbies</a>
-        <p>Socials</p>
+        <p>Find Me</p>
     </nav>
     <main>
         <nav id="socialnav">
@@ -41,6 +41,20 @@
             </a>
         </nav>
     </main>
+    <section id="contact">
+        <h2 id="contacttitle">
+            Contact Me!
+        </h2>
+        <form action="process_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
     <footer>
         Made with ♥ by Julius Valentin Burlet©
     </footer>

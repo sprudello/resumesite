@@ -150,3 +150,53 @@ nav p {
     transform-origin: center;
     transform-style: preserve-3d;
 }
+
+section{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#contacttitle{
+    margin: 0px;
+    padding-top: 5px;
+    margin-left: 10px;
+    font-size: 36px;
+}
+form{
+
+}
+#name{
+    background-color: var(--bgcolor);
+    border-color: #333;
+    border-radius: 10px;
+    color: var(--textcolor);
+    width: 92%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 33px;
+}
+#email{
+    background-color: var(--bgcolor);
+    border-color: #333;
+    border-radius: 10px;
+    color: var(--textcolor);
+    width: 100%;
+    padding: 5px;
+}
+#message{
+    background-color: var(--bgcolor);
+    border-color: #333;
+    border-radius: 10px;
+    color: var(--textcolor);
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+input[type="submit"] {
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+    border-color: #333;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+
+}
