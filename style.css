@@ -327,3 +327,18 @@ input[type="submit"] {
 .description {
     margin-top: -15px;
 }
+
+/*#projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+*/
+.projectpic {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.titlehobby {
+    color: var(--details);
+}
