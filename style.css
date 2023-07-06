@@ -375,3 +375,10 @@ h3 {
     margin: 20px;
     margin-top: 40px;
 }
+h1{
+    color:var(--details);
+}
+
+#homefooter{
+    position: absolute;
+}
