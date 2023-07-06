@@ -163,8 +163,6 @@ section {
     font-size: 36px;
 }
 
-form {}
-
 #name {
     background-color: var(--bgcolor);
     border-color: #333;
@@ -339,6 +337,35 @@ input[type="submit"] {
     border-radius: 10px;
 }
 
-.titlehobby {
+.titlehobby,
+h3 {
     color: var(--details);
+}
+
+.hobbypicture{
+    height:5%; 
+    width:20%;
+    border-radius: 10px;
+    border: solid var(--bgbgcolor);
+}
+
+@media only screen and (max-width: 600px) {
+    .hobbypicture{
+        height: 40%;
+        width: 80%;
+    }
+    #icons img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icons img{
+    width: 10%;
+    height: 10%;
 }
